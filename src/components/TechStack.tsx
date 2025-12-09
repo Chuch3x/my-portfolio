@@ -6,7 +6,7 @@ export default function TechStack() {
   return (
     <section className="stack-section">
       <div className="stack-container">
-        <p className="stack-title">My Tech Stack</p>
+        <p className="stack-title">My Stack</p>
         <div className="stack-div">
           {stack.technologies.map((s) => (
             <TechCard name={s.name} url_icon={s.url_icon} />
