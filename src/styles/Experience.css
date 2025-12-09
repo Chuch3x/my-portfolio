@@ -1,0 +1,22 @@
+.my-project-section {
+  padding: 3rem 2rem;
+}
+
+.my-project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.my-project-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 0 4px 0;
+  border-bottom: 4px solid rgb(200, 172, 214);
+  padding-bottom: 2px;
+}
+
+.my-project-project {
+  margin: 0;
+  padding: 0;
+}

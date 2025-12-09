@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  font-family: "Inter", system-ui, sans-serif;
+  color-scheme: light dark;
+  --text-primary: rgb(200, 172, 214);
+  --text-secondary: #c2bcc5;
+  --border-buttons: 8px;
+  --buttons-background: #433d8b;
+  --buttons-hover: #463cb1;
+  color: rgb(200, 172, 214);
+  background: #17153b;
+  background: linear-gradient(
+    180deg,
+    rgba(23, 21, 59, 1) 0%,
+    rgba(63, 57, 161, 1) 90%
+  );
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 
+    /* Estrellas pequeñas (más abundantes) */ 12vw 8vh 0 0px white,
+    85vw 15vh 0 0px white, 45vw 25vh 0 0px white, 70vw 35vh 0 0px white,
+    25vw 45vh 0 0px white, 90vw 55vh 0 0px white, 15vw 65vh 0 0px white,
+    55vw 75vh 0 0px white, 35vw 85vh 0 0px white, 75vw 5vh 0 0px white,
+    5vw 95vh 0 0px white, 95vw 12vh 0 0px white, 40vw 22vh 0 0px white,
+    60vw 32vh 0 0px white, 20vw 42vh 0 0px white, 80vw 52vh 0 0px white,
+    10vw 62vh 0 0px white, 50vw 72vh 0 0px white, 30vw 82vh 0 0px white,
+    65vw 92vh 0 0px white, 48vw 18vh 0 0px white, 78vw 28vh 0 0px white,
+    18vw 38vh 0 0px white, 88vw 48vh 0 0px white, 28vw 58vh 0 0px white,
+    58vw 68vh 0 0px white, 38vw 78vh 0 0px white, 68vw 88vh 0 0px white,
+    8vw 98vh 0 0px white, 98vw 8vh 0 0px white, 42vw 3vh 0 0px white,
+    72vw 13vh 0 0px white, 22vw 23vh 0 0px white, 52vw 33vh 0 0px white,
+    82vw 43vh 0 0px white, 32vw 53vh 0 0px white, 62vw 63vh 0 0px white,
+    92vw 73vh 0 0px white, 2vw 83vh 0 0px white, 47vw 93vh 0 0px white,
+    77vw 7vh 0 0px white, 17vw 17vh 0 0px white, 57vw 27vh 0 0px white,
+    87vw 37vh 0 0px white, 27vw 47vh 0 0px white, 67vw 57vh 0 0px white,
+    37vw 67vh 0 0px white, 97vw 77vh 0 0px white, 7vw 87vh 0 0px white,
+    43vw 97vh 0 0px white, 73vw 10vh 0 0px white,
+    /* Estrellas medianas (menos) */ 23vw 20vh 0 1px white,
+    53vw 30vh 0 1px white, 83vw 40vh 0 1px white, 13vw 50vh 0 1px white,
+    63vw 60vh 0 1px white, 33vw 70vh 0 1px white, 93vw 80vh 0 1px white,
+    3vw 90vh 0 1px white, 44vw 14vh 0 1px white, 74vw 24vh 0 1px white,
+    14vw 34vh 0 1px white, 54vw 44vh 0 1px white, 84vw 54vh 0 1px white,
+    24vw 64vh 0 1px white, 64vw 74vh 0 1px white, 94vw 84vh 0 1px white,
+    34vw 94vh 0 1px white, 71vw 19vh 0 1px white,
+    /* Estrellas grandes (pocas) */ 50vw 20vh 0 1.5px white,
+    20vw 50vh 0 1.5px white, 80vw 70vh 0 1.5px white, 60vw 10vh 0 1.5px white,
+    30vw 80vh 0 1.5px white, 90vw 30vh 0 1.5px white, 10vw 90vh 0 1.5px white,
+    70vw 60vh 0 1.5px white;
+  opacity: 0.8;
+  animation: twinkle 4s infinite ease-in-out;
+  pointer-events: none;
+  z-index: 0;
+}
+
+:root::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 16vw 12vh 0 0px rgba(255, 255, 255, 0.8),
+    86vw 22vh 0 0px rgba(255, 255, 255, 0.8),
+    46vw 32vh 0 0px rgba(255, 255, 255, 0.8),
+    66vw 42vh 0 0px rgba(255, 255, 255, 0.8),
+    26vw 52vh 0 0px rgba(255, 255, 255, 0.8),
+    76vw 62vh 0 0px rgba(255, 255, 255, 0.8),
+    36vw 72vh 0 0px rgba(255, 255, 255, 0.8),
+    96vw 82vh 0 0px rgba(255, 255, 255, 0.8),
+    6vw 92vh 0 0px rgba(255, 255, 255, 0.8),
+    56vw 6vh 0 0px rgba(255, 255, 255, 0.8),
+    41vw 16vh 0 0px rgba(255, 255, 255, 0.8),
+    81vw 26vh 0 0px rgba(255, 255, 255, 0.8),
+    21vw 36vh 0 0px rgba(255, 255, 255, 0.8),
+    51vw 46vh 0 0px rgba(255, 255, 255, 0.8),
+    91vw 56vh 0 0px rgba(255, 255, 255, 0.8),
+    31vw 66vh 0 0px rgba(255, 255, 255, 0.8),
+    61vw 76vh 0 0px rgba(255, 255, 255, 0.8),
+    11vw 86vh 0 0px rgba(255, 255, 255, 0.8),
+    49vw 96vh 0 0px rgba(255, 255, 255, 0.8),
+    79vw 11vh 0 0px rgba(255, 255, 255, 0.8);
+  opacity: 0.6;
+  animation: twinkle 5s infinite ease-in-out reverse;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+header {
+  max-height: max-content;
+}
+
+.portfolio-container {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.left-icon-container {
+  width: max-content;
+}

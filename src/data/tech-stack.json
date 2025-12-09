@@ -1,0 +1,56 @@
+{
+  "technologies": [
+    {
+      "name": "HTML",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+    },
+    {
+      "name": "CSS",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+    },
+    {
+      "name": "TypeScript",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+    },
+    {
+      "name": "Git",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+    },
+    {
+      "name": "Github",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
+    },
+    {
+      "name": "PostgreSQL",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"
+    },
+    {
+      "name": "MySQL",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+    },
+    {
+      "name": "Firebase",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg"
+    },
+    {
+      "name": "Supabase",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg"
+    },
+    {
+      "name": "NeonDB",
+      "url_icon": "https://cdn.simpleicons.org/databricks/green"
+    },
+    {
+      "name": "ExpressJS",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"
+    },
+    {
+      "name": "NestJS",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-original.svg"
+    },
+    {
+      "name": "NodeJS",
+      "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+    }
+  ]
+}

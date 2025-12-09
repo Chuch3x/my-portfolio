@@ -1,0 +1,106 @@
+{
+  "projects": [
+    {
+      "id": "importadora-santiago",
+      "name": {
+        "en": "Importadora Santiago",
+        "es": "Importadora Santiago"
+      },
+      "type": {
+        "en": "Inventory System",
+        "es": "Sistema de Inventario"
+      },
+      "description": {
+        "en": "Freelance Full-Stack Developer for 'Importadora Santiago', a medical equipment distributor. Developed an inventory management system to streamline stock control, improve product tracking, and minimize errors in medical supply registration.",
+        "es": "Desarrollador Full-Stack freelance para 'Importadora Santiago', un distribuidor de equipos médicos. Desarrollé un sistema de inventarios para optimizar el control de stock, mejorar el seguimiento de productos y reducir errores en el registro de insumos médicos."
+      },
+      "technologies": [
+        {
+          "name": "React",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+        },
+        {
+          "name": "TypeScript",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+        },
+        {
+          "name": "CSS",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"
+        },
+        {
+          "name": "Auth",
+          "url_icon": "https://cdn.simpleicons.org/auth0"
+        },
+        {
+          "name": "Express",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"
+        },
+        {
+          "name": "GitHub",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
+        }
+      ]
+    },
+    {
+      "id": "tu-cafe",
+      "name": {
+        "en": "Tu Café",
+        "es": "Tu Café"
+      },
+      "type": {
+        "en": "Web/Mobile System",
+        "es": "Sistema Web/Movil"
+      },
+      "description": {
+        "en": "Developed full-stack solutions for 'Tu Café', a local restaurant, focusing on both in-person and online order management. The goal was to modernize and optimize the restaurant's operational workflow. Delivered scalable and efficient systems to handle high daily customer volume, improving user experience and overall service efficiency.",
+        "es": "Desarrollo de soluciones completas para 'Tu Café', un restaurante local, centrándose tanto en la gestión de pedidos en persona como en línea. El objetivo era modernizar y optimizar el flujo de trabajo operativo del restaurante. Entrega de sistemas escalables y eficientes para manejar el alto volumen diario de clientes, mejorando la experiencia del usuario y la eficiencia general del servicio."
+      },
+      "technologies": [
+        {
+          "name": "React",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+        },
+        {
+          "name": "TypeScript",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+        },
+        {
+          "name": "CSS",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+        },
+        {
+          "name": "Supabase",
+          "url_icon": "https://cdn.simpleicons.org/supabase"
+        },
+        {
+          "name": "Auth",
+          "url_icon": "https://cdn.simpleicons.org/auth0"
+        },
+        {
+          "name": "Flutter",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg"
+        },
+        {
+          "name": "Firebase",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg"
+        },
+        {
+          "name": "Firehosting",
+          "url_icon": "https://cdn.simpleicons.org/firebase"
+        },
+        {
+          "name": "BLoC",
+          "url_icon": "https://cdn.simpleicons.org/flutter"
+        },
+        {
+          "name": "NestJS",
+          "url_icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-original.svg"
+        }
+      ]
+    }
+  ]
+}

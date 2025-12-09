@@ -1,0 +1,23 @@
+.left-icon-container .left-icon {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.principal-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.principal-section-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.principal-section-subtitle {
+  font-size: 24px;
+  color: #c2bcc5;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
