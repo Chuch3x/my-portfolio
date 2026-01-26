@@ -16,11 +16,12 @@ function About() {
           <p className="about-title">About Me</p>
 
           <p className="about-text">
-            I'm a systems engineer passionate about full-stack and multiplatform
-            development, continuous learning, and exploring emerging
-            technologies. Motivated to begin my professional career in software
-            development, contributing as a reliable, proactive, and
-            collaborative eager to grow and deliver high-quality results.
+            Systems Engineer passionate about Full-Stack and Mobile development, with a
+            focus on building functional and scalable solutions. I am a proactive professional,
+            committed to continuous learning and applying engineering best practices to
+            ensure high-quality code. Motivated to contribute to impactful projects, I bring a
+            collaborative mindset and a strong drive to deliver reliable and maintainable
+            results.
           </p>
 
           <p className="about-text">
