@@ -2,8 +2,8 @@ import "../styles/About.css";
 function About() {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/documents/CAMC-CV.pdf";
-    link.download = "Cesar_Mendez_CV.pdf";
+    link.href = "/documents/Mendez-Cesar-CV.pdf";
+    link.download = "Mendez-Cesar-CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -16,12 +16,13 @@ function About() {
           <p className="about-title">About Me</p>
 
           <p className="about-text">
-            Systems Engineer passionate about Full-Stack and Mobile development, with a
-            focus on building functional and scalable solutions. I am a proactive professional,
-            committed to continuous learning and applying engineering best practices to
-            ensure high-quality code. Motivated to contribute to impactful projects, I bring a
-            collaborative mindset and a strong drive to deliver reliable and maintainable
-            results.
+            Systems Engineer passionate about Full-Stack and Mobile development,
+            with a focus on building functional and scalable solutions. I am a
+            proactive professional, committed to continuous learning and
+            applying engineering best practices to ensure high-quality code.
+            Motivated to contribute to impactful projects, I bring a
+            collaborative mindset and a strong drive to deliver reliable and
+            maintainable results.
           </p>
 
           <p className="about-text">

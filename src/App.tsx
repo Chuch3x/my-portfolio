@@ -1,7 +1,6 @@
 import "./App.css";
 import About from "./components/About";
 import HeroSection from "./components/HeroSection";
-import MyProjects from "./components/MyProjects";
 import Experience from "./components/Experience";
 import TechStack from "./components/TechStack";
 import ContactMe from "./components/ContactMe";
@@ -16,7 +15,7 @@ function App() {
   const contactRef = useRef<HTMLDivElement>(null);
 
   const scrollToSection = (
-    sectionRef: React.RefObject<HTMLDivElement | null>
+    sectionRef: React.RefObject<HTMLDivElement | null>,
   ) => {
     sectionRef.current?.scrollIntoView({
       behavior: "smooth",
@@ -43,7 +42,6 @@ function App() {
           <About />
         </div>
         <div ref={projectsRef}>
-          <MyProjects />
           <Experience />
         </div>
         <div ref={stackRef}>

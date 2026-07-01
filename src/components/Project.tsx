@@ -10,15 +10,17 @@ interface ProjectProps {
   type?: string;
   description?: string;
   technologies?: Technology[];
+  url?: string;
 }
 
 export default function Project({
   name,
   type,
   description,
+  url,
   technologies = [],
 }: ProjectProps) {
-  return (
+  const projectCard = (
     <section className="project-section">
       <div className="project-container">
         <div className="project-content">
@@ -41,5 +43,18 @@ export default function Project({
         </div>
       </div>
     </section>
+  );
+
+  return url ? (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-link"
+    >
+      {projectCard}
+    </a>
+  ) : (
+    projectCard
   );
 }
